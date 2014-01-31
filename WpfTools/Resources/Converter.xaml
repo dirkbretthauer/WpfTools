@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:wpftools="clr-namespace:WpfTools.Converter">
+
+    <wpftools:BooleanToVisibilityConverter x:Key="TrueToVisibleConverter" TrueTreatment="Visible" FalseTreatment="Hidden"/>
+    <wpftools:DateTimeConverter x:Key="DateTimeConverter" />
+</ResourceDictionary>

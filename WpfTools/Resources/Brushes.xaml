@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="ButtonBackground" Color="LightGray"/>
+    <SolidColorBrush x:Key="ButtonDisabledBackground" Color="#F4F4F4"/>
+    <SolidColorBrush x:Key="ButtonDisabledBorderBrush" Color="#FFC9C7BA"/>
+    <SolidColorBrush x:Key="ButtonPressedBackground" Color="#FF4E4848"/>
+
+</ResourceDictionary>
