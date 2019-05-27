@@ -25,7 +25,7 @@
 using System;
 using System.Reflection;
 using System.Windows.Controls;
-using Microsoft.Practices.Prism.Commands;
+using Prism.Interactivity;
 
 namespace WpfTools.Commands
 {
@@ -81,7 +81,7 @@ namespace WpfTools.Commands
         /// <param name="e"></param>
         private void OnEventRaised(object sender, EventArgs e)
         {
-            ExecuteCommand();
+            ExecuteCommand(null);
         }
     }
 
